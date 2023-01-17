@@ -1,6 +1,6 @@
 from django.urls import path
 
-from .views import CurrentDateView
+from .views import CurrentDateView, IndexView
 
 
 urlpatterns = [
