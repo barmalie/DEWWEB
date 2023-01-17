@@ -20,4 +20,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('common.urls')),
     path('', include('test_app.urls'))
+
 ]
+
+#return render(request, 'common/index.html')
